@@ -13,3 +13,10 @@ for i in numbers:
 count=numbers.count(6)
 print("no.6 count is: ",count)
 
+##################################################
+
+#store lists of information
+
+friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
+
+print(friends[1:3])
