@@ -35,3 +35,10 @@ print("but a<b is ",a<b)
 
 print("True and False means: ",cond and op_cond)
 print("True OR False means: ",cond or op_cond)
+
+#############################
+
+num1 = input("Enter first number: ")
+num2 = input("Enter second number: ")
+result = float(num1) + float(num2) #use float function instead of int
+print(result)
