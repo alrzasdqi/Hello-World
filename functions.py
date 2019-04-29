@@ -1,5 +1,6 @@
 #func says hi to users
-def sayhi():
-    print("Hello User")
+def say_hi(name, age):
+    print("Hello " + name + " you are " + age)
 
-sayhi()
+say_hi("Mike", "23")
+say_hi("Steve", "45")
