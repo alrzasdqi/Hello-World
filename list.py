@@ -10,13 +10,18 @@ numbers.reverse()
 numbers.sort()
 for i in numbers:
 	print(i)
-count=numbers.count(6)
+count=numbers.count(6) 
 print("no.6 count is: ",count)
 
 ##################################################
 
 #store lists of information
-
 friends = ["Kevin", "Karen", "Jim", "Oscar", "Toby"]
-
+friends.insert(1, "kelly")
+print(friends.index("Oscar"))
+friends.sort()
+print(friends)
 print(friends[1:3])
+
+friends2 = friends.copy()
+print(friends2)
