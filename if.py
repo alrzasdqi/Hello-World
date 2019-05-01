@@ -18,3 +18,11 @@ elif y:
 	print("x is true and y is true")
 else:
 	print("x is true and y is false")
+#########################################################
+is_male = False
+is_tall = False
+
+if is_male or is_tall:
+    print("You are a male or tall")
+else:
+    print("You neither male nor tall")
