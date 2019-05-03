@@ -1,2 +1,2 @@
 # Hello-World
-Simple Hello World Print Script with PYTHON
+Learning Basics of PYTHON
